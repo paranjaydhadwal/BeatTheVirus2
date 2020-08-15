@@ -1,6 +1,6 @@
 class Player{
     constructor(){
-        this.sprite=createSprite(50,550,50,50);
+        this.sprite=createSprite(50,500,50,50);
         this.sprite.velocityX=7;
         this.sprite.addAnimation("running",running);
         this.sprite.scale=0.4;
